@@ -23,7 +23,7 @@
           <img src="~/assets/images/plane.svg" alt="" class="mr-2" />
           Send a message
         </AppButton>
-        <AppButton href="/Resume.pdf" download="Melvin_Borja_Resume.pdf" text>
+        <AppButton href="/Melvin_Borja_Resume.pdf" download text>
           <img src="~/assets/images/download.svg" alt="" class="mr-2" />
           Resume
         </AppButton>
