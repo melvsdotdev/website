@@ -7,10 +7,6 @@
     { image: 'strapi.png', altText: 'Strapi' },
     { image: 'git.png', altText: 'Git' }
   ])
-
-  function generateImageURL (src: string): string {
-    return new URL(src, import.meta.url).href
-  }
 </script>
 
 <template>
@@ -38,7 +34,7 @@
           <img
             v-for="(stack, index) in techStacks"
             :key="index"
-            :src="generateImageURL(`../assets/images/${stack.image}`)"
+            :src="`/${stack.image}`"
             :alt="stack.altText"
             class="mx-2"
             style="height: 28px;"
