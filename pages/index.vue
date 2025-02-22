@@ -1,12 +1,17 @@
 <script lang="ts" setup>
-  const techStacks = ref([
+  type ArrayOfObjects = {
+    image: string,
+    altText: string
+  }
+
+  const techStacks: ArrayOfObjects[] = [
     { image: 'vue.png', altText: 'Vue.js' },
     { image: 'nuxt.png', altText: 'Nuxt JS' },
     { image: 'figma.png', altText: 'Figma' },
     { image: 'nodejs.png', altText: 'Node JS' },
     { image: 'strapi.png', altText: 'Strapi' },
     { image: 'git.png', altText: 'Git' }
-  ])
+  ]
 </script>
 
 <template>
@@ -23,12 +28,12 @@
           <img src="~/assets/images/plane.svg" alt="" class="mr-2" />
           Send a message
         </AppButton>
-        <AppButton href="/Melvin_Borja_Resume.pdf" download text>
+        <AppButton href="/Melvin_Borja-Resume.pdf" download text>
           <img src="~/assets/images/download.svg" alt="" class="mr-2" />
           Resume
         </AppButton>
       </div>
-      <p class="mt-12 text-sm">
+      <div class="mt-12 text-sm">
         Mostly used tech stacks
         <div class="flex mt-5">
           <img
@@ -40,7 +45,7 @@
             style="height: 28px;"
           />
         </div>
-      </p>
+      </div>
     </div>
     <div class="flex-auto">
       <img src="~/assets/images/illustration.svg" alt="" class="w-[120%]">
