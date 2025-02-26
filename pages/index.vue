@@ -21,7 +21,7 @@
         <span class="font-bold">Hey, I’m <span class="text-primary">Melvs</span></span> — I transform ideas into intuitive, engaging web experiences
       </h1>
       <p class="mt-5 mb-7">
-        With over 4 years of experience in translating UI wireframes and integrating REST APIs
+        With over 8 years of experience in translating UI wireframes and integrating REST APIs
       </p>
       <div class="flex">
         <AppButton href="mailto:melvinmoratoborja@gmail.com">
